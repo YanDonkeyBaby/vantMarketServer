@@ -13,8 +13,9 @@ module.exports= db.define("goods_sku",
     type:DataTypes.INTEGER(20),
     allowNull:false
   },
-  goods_attr_path:{//[1,2]
+  goods_attr_path:{
     type:DataTypes.JSON,
+
     allowNull:false
   },
   goods_sku_desc:{

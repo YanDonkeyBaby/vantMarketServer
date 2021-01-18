@@ -1,9 +1,9 @@
 var config = {
-  database: 'practice', 
-  username: 'frontend', // 用户名
-  password: 'frontend123^E', // 口令
-  host: 'bj-cdb-huefuwa0.sql.tencentcdb.com', // 主机名
-  port: 63151, // 端口号，MySQL默认3306
+  database: 'practice',
+  username: 'root', // 用户名
+  password: '*Pa55Word*', // 口令
+  host: '192.168.88.7', // 主机名
+  port: 3306, // 端口号，MySQL默认3306
   define: {
     // 是否冻结表名, 默认表名会转换为复数形式
     freezeTableName: true,
